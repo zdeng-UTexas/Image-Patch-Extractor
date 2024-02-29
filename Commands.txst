@@ -1,0 +1,24 @@
+Aerial_Imagery.jpg
+
+python3 ImagePatchExtractor.py --image_path "./original_image/Aerial_Imagery.jpg" --num_patches 5 --patch_size 64 --output_name "grassland" --output_dir "./image_patch/Google Earth_EER"
+
+
+DJI_0455.JPG
+
+fresh_grass
+dry_grass
+tree
+smooth_concrete
+shrubbery
+
+python3 ImagePatchExtractor.py --image_path "./original_image/DJI_0455.JPG" --num_patches 30 --patch_size 128 --output_name "grassland" --output_dir "./image_patch/DJI_0455_EER"
+
+DJI_0442.JPG
+
+(fresh_grass)
+(tree)
+(smooth_concrete)
+rocky_concrete
+graval
+
+python3 ImagePatchExtractor.py --image_path "./original_image/DJI_0455.JPG" --num_patches 30 --patch_size 128 --output_name "grassland" --output_dir "./image_patch/DJI_0442_EER"
